@@ -1895,7 +1895,7 @@ section.lazy-placeholder:after {
 }
 .cid-s4BYaBXWiZ .media-container-row {
   -webkit-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 @media (max-width: 991px) {
   .cid-s4BYaBXWiZ .media-container-row {
@@ -1977,7 +1977,7 @@ section.lazy-placeholder:after {
 }
 .cid-s5RY1inROp .media-container-row {
   -webkit-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 @media (max-width: 991px) {
   .cid-s5RY1inROp .media-container-row {
@@ -2054,7 +2054,7 @@ section.lazy-placeholder:after {
 }
 .cid-s5RZFQQ14M .media-container-row {
   -webkit-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 @media (max-width: 991px) {
   .cid-s5RZFQQ14M .media-container-row {
@@ -2131,7 +2131,7 @@ section.lazy-placeholder:after {
 }
 .cid-s73oGuHoAJ .media-container-row {
   -webkit-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 @media (max-width: 991px) {
   .cid-s73oGuHoAJ .media-container-row {
@@ -5502,4 +5502,74 @@ section.lazy-placeholder:after {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
+}
+.cid-s4BYaBXWiZ {
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-s4BYaBXWiZ p {
+  color: #767676;
+}
+.cid-s4BYaBXWiZ .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-s4BYaBXWiZ .accordion-content {
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-s4BYaBXWiZ .panel-group {
+  width: 100%;
+}
+.cid-s4BYaBXWiZ .card {
+  border-radius: 0px;
+  margin-bottom: -1px;
+}
+.cid-s4BYaBXWiZ .card .card-header {
+  border-radius: 0px;
+  border: 0px;
+  padding: 0;
+}
+.cid-s4BYaBXWiZ .card .card-header a.panel-title {
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+  text-decoration: none !important;
+  margin-top: -1px;
+  line-height: normal;
+}
+.cid-s4BYaBXWiZ .card .card-header a.panel-title:focus {
+  text-decoration: none !important;
+}
+.cid-s4BYaBXWiZ .card .card-header a.panel-title h4 {
+  padding: 1.3rem 2rem;
+  border: 1px solid #dfdfdf;
+  margin-bottom: 0;
+}
+.cid-s4BYaBXWiZ .card .card-header a.panel-title h4 .sign {
+  padding-right: 1rem;
+}
+.cid-s4BYaBXWiZ .mbr-figure {
+  -webkit-align-self: flex-start;
+  align-self: flex-start;
+  padding-left: 4rem;
+}
+@media (max-width: 991px) {
+  .cid-s4BYaBXWiZ .mbr-figure {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 2rem;
+  }
+}
+.cid-s4BYaBXWiZ H4 {
+  color: #0f8c33;
+  text-align: left;
+}
+.cid-s4BYaBXWiZ .panel-text {
+  color: #073b4c;
+  text-align: left;
+}
+.cid-s4BYaBXWiZ H2 {
+  color: #0f8c33;
 }
