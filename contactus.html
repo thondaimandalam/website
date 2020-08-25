@@ -73,7 +73,55 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="google-map"><iframe frameborder="0" style="border:0" src="https://docs.google.com/forms/d/e/1FAIpQLSdd3W8My1UhVj_-AzdpVWp-u1fI4-wVxKfQAt3tN13BooO-JA/viewform?embedded=true" allowfullscreen=""></iframe></div>
+                <form class="form-horizontal" name="contactus"  method="POST" data-netlify-recaptcha="true" data-netlify="true">
+                    <fieldset>
+                    
+                    <!-- Form Name -->
+                    <legend>Contact Us</legend>
+                    
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="name">Name</label>  
+                      <div class="col-md-4">
+                      <input id="name" name="name" type="text" placeholder="Your answer" class="form-control input-md" required="">
+                        
+                      </div>
+                    </div>
+                    
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="Email Address">Email address</label>  
+                      <div class="col-md-4">
+                      <input id="Email Address" name="Email Address" type="text" placeholder="your email" class="form-control input-md" required="">
+                        
+                      </div>
+                    </div>
+                    
+                    <!-- Textarea -->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="Message">Message</label>
+                      <div class="col-md-4">                     
+                        <textarea class="form-control" id="Message" name="Message">Your message</textarea>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-4">
+                        <div data-netlify-recaptcha="true"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Button -->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="submit"></label>
+                      <div class="col-md-4">
+                        <button id="submit" name="submit" class="btn btn-success">Submit</button>
+                      </div>
+                    </div>
+                    
+                    </fieldset>
+                    </form>
+                    
             </div>
         </div>
     </div>
