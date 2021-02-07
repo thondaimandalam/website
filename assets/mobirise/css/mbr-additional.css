@@ -5620,3 +5620,44 @@ section.lazy-placeholder:after {
 .cid-sacNDu8Rnj H2 {
   color: #0f8c33;
 }
+
+.cid-sojyuo25Rg {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-sojyuo25Rg .top-line {
+  display: flex;
+  justify-content: space-between;
+}
+.cid-sojyuo25Rg .mbr-section-title,
+.cid-sojyuo25Rg .mbr-section-subtitle {
+  text-align: center;
+}
+.cid-sojyuo25Rg .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-sojyuo25Rg .card-wrapper {
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+.cid-sojyuo25Rg .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .cid-sojyuo25Rg .card-box {
+    padding: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .cid-sojyuo25Rg .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sojyuo25Rg .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
